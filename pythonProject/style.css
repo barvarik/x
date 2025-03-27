@@ -1,0 +1,27 @@
+/* style.css */
+
+/* Общие стили */
+.TLabel {
+    font-family: "Segoe UI";
+    font-size: 10pt;
+    background-color: white;
+}
+
+/* Стиль для кнопок с акцентом */
+.Accent.TButton {
+    font-family: "Segoe UI";
+    font-size: 10pt;
+    color: white;
+    background-color: #67BA80;
+    padding: 5px 10px;
+    border: none;
+}
+
+.Accent.TButton:hover {
+    background-color: #559966; /* Slightly darker on hover */
+}
+
+/* Стиль для окон (Toplevel) */
+.Toplevel {
+    background-color: white;
+}
